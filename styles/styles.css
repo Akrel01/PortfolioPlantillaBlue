@@ -274,11 +274,25 @@ footer{
     .tech{
         flex-wrap: wrap;
     }
-
+ 
     .tech__item__title{
         margin-top: 50px;
     }
+  
+}
 
+@media(max-width:450px){
+    .hero__name{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .hero__subtitle{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1185px){
     .itemPro{
         margin: 30px auto;
 
@@ -289,20 +303,5 @@ footer{
 
     .img__project{
         width: 100%;
-    }
-
-    .projects__item__text{
-        font-size: 10px
-    }
-}
-
-@media(max-width:320px){
-    .hero__name{
-        text-align: center;
-        font-size: 45px;
-    }
-
-    .hero__subtitle{
-        font-size: 12px;
     }
 }
